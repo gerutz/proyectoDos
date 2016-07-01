@@ -21,6 +21,7 @@ Route::get('/actores/{nombre}', 'ActorController@show');
 Route::get('/actores/buscar', 'ActorController@search');
 Route::post('actores/buscar', 'ActorController@post');
 Route::get('actores/agregar', 'ActorController@add');
+Route::post('actores/agregar', 'ActorController@store');
 
 
 

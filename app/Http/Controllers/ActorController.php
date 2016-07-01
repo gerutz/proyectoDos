@@ -67,8 +67,18 @@ class ActorController extends Controller
         $actor->save();
 
         // faltaria redireccionar al listado de actores
+        return redirect('actores/listado');
     }
 
+    public function edit($id){
+        
+        $actor = Actor::find($id);
 
+        return view('editarActor',[
+            'nombre'   => $actor->nombre,
+            'apellido' => $actor->apellido
+        ]);
+
+    }
 }
 

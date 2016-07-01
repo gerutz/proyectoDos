@@ -31,6 +31,10 @@ Route::post('actores/agregar', 'ActorController@store');
 
 Route::get('/actores/{nombre}', 'ActorController@show');
 
+// Edicion de actores
+
+Route::get('/actores/{id}/editar', 'ActorController@edit');
+
 
 
 

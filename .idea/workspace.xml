@@ -25,8 +25,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="432">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
       <file leaf-file-name="ActorController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ActorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="94" column="86" selection-start-line="94" selection-start-column="86" selection-end-line="94" selection-end-column="86" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -146,8 +146,8 @@
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/agregarActor.blade.php" />
         <option value="$PROJECT_DIR$/app/Actor.php" />
-        <option value="$PROJECT_DIR$/resources/views/editarActor.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/editarActor.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ActorController.php" />
       </list>
     </option>
@@ -314,7 +314,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../integradorLaravel/laravelDH" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ro&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;edit&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/resources/views/editarActor.blade.php&#10;ac&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;Route&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;ro&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;edit&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/resources/views/editarActor.blade.php&#10;ac&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;Rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;Route&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -371,12 +371,12 @@
       <workItem from="1467156618910" duration="52000" />
       <workItem from="1467156748431" duration="335000" />
       <workItem from="1467239607240" duration="1193000" />
-      <workItem from="1467240909685" duration="25670000" />
+      <workItem from="1467240909685" duration="26724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35978000" />
+    <option name="totallyTimeSpent" value="37032000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,14 +739,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PeliculaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/actores.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -779,6 +771,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PeliculaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/editarActor.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -787,18 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ActorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="94" column="86" selection-start-line="94" selection-start-column="86" selection-end-line="94" selection-end-column="86" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

@@ -76,9 +76,24 @@ class ActorController extends Controller
 
         return view('editarActor',[
             'nombre'   => $actor->nombre,
-            'apellido' => $actor->apellido
+            'apellido' => $actor->apellido,
+            'id'       => $actor->id
         ]);
 
     }
+
+    public function update(Request $request, $id){
+        $datos = $request->all();
+
+        $actor = Actor::find($id);
+
+        $actor->nombre = $datos["nombre"];
+        $actor->apellido = $datos["apellido"];
+
+        $actor->save();
+
+        // hacer redirect asi cuando recargan la pagina no hacemos un POST nuevamente 
+    }
+
 }
 

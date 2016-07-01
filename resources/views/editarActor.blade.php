@@ -5,7 +5,7 @@
     <title>Proyecto Dos - Agregar</title>
 </head>
 <body>
-    <form action="/actores/agregar" method="post">
+    <form action="/actores/{{$id}}/editar" method="post">
         {{csrf_field()}}
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="{{$nombre}}">

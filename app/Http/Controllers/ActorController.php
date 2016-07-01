@@ -52,7 +52,23 @@ class ActorController extends Controller
     }
 
     public function  add(){
-        
+
+        return view('agregarActor');
+
     }
+
+    public function store (Request $request){
+
+        $actor = new Actor();
+
+        $actor->nombre = $request->nombre;
+        $actor->apellido = $request->apellido;
+        
+        $actor->save();
+
+        // faltaria redireccionar al listado de actores
+    }
+
+
 }
 

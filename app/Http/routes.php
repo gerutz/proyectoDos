@@ -17,11 +17,23 @@ Route::get('/', 'ControllerApp@peliculas');
 Route::get('/about', 'ControllerApp@about');
 Route::get('/peliculas', 'PeliculaController@ver');
 Route::get('/actores', 'ActorController@listar');
-Route::get('/actores/{nombre}', 'ActorController@show');
+
 Route::get('/actores/buscar', 'ActorController@search');
 Route::post('actores/buscar', 'ActorController@post');
+
 Route::get('actores/agregar', 'ActorController@add');
 Route::post('actores/agregar', 'ActorController@store');
+
+// el orden del los routes es importante, las mas especificas primero . Esto es primero :
+// 'loquesea/loquesea'                                                   Segundo:
+// 'loquesea/{loquesea}
+
+
+Route::get('/actores/{nombre}', 'ActorController@show');
+
+
+
+
 
 
 

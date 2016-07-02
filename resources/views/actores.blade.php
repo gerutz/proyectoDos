@@ -7,6 +7,9 @@
 
 <ul>
 @foreach($actores as $actor)
+
         <li><a href="actor/detalle/{{$actor->id}}">{{$actor->nombre}}</a></li>
+        <button type="submit"><a href="/actor/{{$actor->id}}/eliminar" >Eliminar</a></button>
+
 @endforeach
 </ul>

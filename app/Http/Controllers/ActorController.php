@@ -14,9 +14,20 @@ class ActorController extends Controller
     public function getNombreCompleto(){
         
         $actor = Actor::all();
+
         return view('actores',[
             'actor' => $actor
         ]);
+    }
+
+    public function search(){
+
+        $actor = Actor::all();
+
+        return view('actores', [
+            'actores' => $actor
+        ]);
+
     }
 
     public function show($nombre){
@@ -30,18 +41,24 @@ class ActorController extends Controller
     }
 
     public function listar(){
+
         // Actor viene de haber creado el modelo de Actor con eloquent que me conecto con la base de datos
+
         $actores = Actor::all();
+
         return view('actores',[
             'actores' => $actores
         ]);
     }
 
     public function post(Request $request){
+
         //dd($request->nombre);
 
         $q = $request->nombre;
+
         //dd($q);
+
         $actores = Actor::where('nombre', "LIKE", "%" . $q . "%")->get();
         
         //dd($actores);
@@ -96,6 +113,10 @@ class ActorController extends Controller
         // hacer redirect asi cuando recargan la pagina no hacemos un POST nuevamente
 
         return redirect('actores/listado');
+    }
+
+    public function delete(Request $request, $id){
+            dd($request);
     }
 
 }

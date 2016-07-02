@@ -83,6 +83,7 @@ class ActorController extends Controller
     }
 
     public function update(Request $request, $id){
+        
         $datos = $request->all();
 
         $actor = Actor::find($id);

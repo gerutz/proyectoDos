@@ -92,7 +92,9 @@ class ActorController extends Controller
 
         $actor->save();
 
-        // hacer redirect asi cuando recargan la pagina no hacemos un POST nuevamente 
+        // hacer redirect asi cuando recargan la pagina no hacemos un POST nuevamente
+
+        return redirect('actores/listado');
     }
 
 }

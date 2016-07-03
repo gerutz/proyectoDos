@@ -6,10 +6,14 @@
 </form>
 
 <ul>
-@foreach($actores as $actor)
+
+    @foreach($actores as $actor)
 
         <li><a href="actor/detalle/{{$actor->id}}">{{$actor->nombre}}</a></li>
-        <button type="submit"><a href="/actor/{{$actor->id}}/eliminar" >Eliminar</a></button>
+        <form action="/actores/eliminar/{{$actor->id}}" method="post">
+            {{csrf_field()}}
+            <button type="submit"><a href="/actores/eliminar/{{$actor->id}}" >Eliminar</a></button>
+        </form>
 
-@endforeach
+    @endforeach
 </ul>

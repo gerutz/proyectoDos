@@ -38,9 +38,9 @@ Route::post('/actores/{id}/editar', 'ActorController@update');
 
 // Eliminacion de actores
 
-//Route::get('/actores/eliminar/{id}', 'ActorController@delete');
+Route::get('/actores/eliminar/{id}', 'ActorController@delete');
 
-Route::post('/actores/eliminar/{id}', 'ActorController@delete');
+
 
 
 

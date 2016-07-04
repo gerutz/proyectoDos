@@ -1,2 +1,5 @@
+@extends('layout')
 
-<div class="title">{{$pelicula}}</div>
+@section('mensaje')
+<div class="title">{{$peliculas}}</div>
+@endsection

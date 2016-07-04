@@ -115,8 +115,17 @@ class ActorController extends Controller
         return redirect('actores/listado');
     }
 
-    public function delete(Request $request, $id){
-            dd($request);
+    public function delete($id){
+
+        $actor = Actor::find($id);
+
+        $actorBorrado = $actor->nombre;
+        
+        $actor->delete();
+
+        return view('actorBorrado', [
+            'actorBorrado'=> $actorBorrado,
+        ]);
     }
 
 }

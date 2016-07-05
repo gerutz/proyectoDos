@@ -5,6 +5,13 @@
         <title>Proyecto Dos - Agregar</title>
     </head>
     <body>
+        <ul>
+            @foreach($errors->all() as $error)
+                <li>
+                    {{$error}}
+                </li>
+            @endforeach
+        </ul>
         <form action="/actores/agregar" method="post">
             {{csrf_field()}}
             <label for="nombre">Nombre</label>

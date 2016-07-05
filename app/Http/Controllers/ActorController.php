@@ -8,6 +8,8 @@ use App\Http\Requests;
 
 use App\Actor;
 
+use App\Http\Requests\ActoresAgregarRequest;
+
 
 class ActorController extends Controller
 {
@@ -58,7 +60,10 @@ class ActorController extends Controller
     }
 
     public function store (Request $request){
-
+        $this->validate($request, [
+            'nombre'=> 'required',
+            'apellido'=> 'required'
+        ]);
         $actor = new Actor();
 
         $actor->nombre = $request->nombre;

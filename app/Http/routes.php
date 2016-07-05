@@ -10,8 +10,8 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-//Route::group(['middleware' => ['web']], function () {
+// En la version de Laravel 5.2 no es necesario agrupar los Router con un middleware
+// Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', 'ControllerApp@peliculas');
     Route::get('/about', 'ControllerApp@about');

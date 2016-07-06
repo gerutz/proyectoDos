@@ -48,3 +48,15 @@ Route::get('/home', 'HomeController@index');
 
 //Puedo hacer un grupo de rutas que comparten el mismo middleware
 //ej: Route::group(['middelware' => auth], function(){ aqui van las routas que comparten el middleware})
+
+// container de inyeccion de depencias
+
+$api = app('Dingo\Api\Routing\Router');
+
+$api->version('v1', function(\Dingo\Api\Routing\Router $api){
+
+    //$api->group(['prefix' => 'api'], function(\Dingo\Api\Routing\Router $api){
+    ////  $api->get('pelicula')
+    //});
+
+});

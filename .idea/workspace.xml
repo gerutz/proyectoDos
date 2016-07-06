@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff472182-3ee5-4b1c-b02a-8c94287ebdef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/api.php" afterPath="$PROJECT_DIR$/config/api.php" />
     </list>
     <ignored path="proyectoDos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -115,16 +125,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/config/api.php" />
       </list>
     </option>
   </component>
@@ -295,7 +296,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../integradorLaravel/laravelDH" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;provi&#9;null&#9;null&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;TERM&#9;ACTION&#9;ActivateTerminalToolWindow&#10;routing\ro&#9;null&#9;null&#10;AuthCon&#9;null&#9;null&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;migrat&#9;null&#9;null&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ActoresAgregarRequest&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Requests/ActoresAgregarRequest.php&#10;ro&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;a&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;rout&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;edit&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/resources/views/editarActor.blade.php&#10;ac&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;Rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;Route&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="Config&#9;null&#9;null&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;provi&#9;null&#9;null&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;TERM&#9;ACTION&#9;ActivateTerminalToolWindow&#10;routing\ro&#9;null&#9;null&#10;AuthCon&#9;null&#9;null&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;migrat&#9;null&#9;null&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ActoresAgregarRequest&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Requests/ActoresAgregarRequest.php&#10;ro&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;a&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;rout&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;edit&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/resources/views/editarActor.blade.php&#10;ac&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/Controllers/ActorController.php&#10;Rou&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;Route&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///home/gerutz/php/Laravel/proyectoDos/app/Http/routes.php" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -355,12 +356,12 @@
       <workItem from="1467240909685" duration="26812000" />
       <workItem from="1467668385194" duration="5930000" />
       <workItem from="1467756510133" duration="7392000" />
-      <workItem from="1467842241991" duration="1772000" />
+      <workItem from="1467842241991" duration="2011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52214000" />
+    <option name="totallyTimeSpent" value="52453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,20 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -774,10 +761,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/classpreloader/classpreloader/src/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state relative-caret-position="167">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
           <folding />
         </state>
       </provider>

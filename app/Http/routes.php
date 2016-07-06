@@ -55,6 +55,6 @@ $api = app('Dingo\Api\Routing\Router');
 
 $api->version('v1', function(\Dingo\Api\Routing\Router $api){
 
-    $api->get('peliculas', 'App\Http\Controllers\PeliculaApiController@listado');
+    //$api->get('peliculas', 'App\Http\Controllers\PeliculaApiController@listado');
 
 });

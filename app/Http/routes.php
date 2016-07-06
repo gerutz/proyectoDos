@@ -41,15 +41,10 @@
     // Borrar actores
 //});
 
-
-
-
-
-
-
-
-
-
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+//Puedo hacer un grupo de rutas que comparten el mismo middleware
+//ej: Route::group(['middelware' => auth], function(){ aqui van las routas que comparten el middleware})
